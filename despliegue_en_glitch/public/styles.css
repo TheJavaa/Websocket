@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form {
+	padding: 1rem;
+	display: flex;
+	gap: 1rem;
+}
+
+input[type='text'] {
+	height: 2rem;
+	margin-bottom: 1rem;
+	padding-left: 0.4rem;
+}
+
+#chat-message {
+	flex: 2;
+}
+
+input[type='submit'] {
+	width: 5rem;
+	height: 2rem;
+}
+
+#chat-messages {
+	padding: 1rem;
+}
+
+#chat-message-container {
+	margin: 0.5rem 0;
+}
